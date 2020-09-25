@@ -4,10 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AngularCesiumModule } from 'angular-cesium';
 import { AngularCesiumWidgetsModule } from 'angular-cesium';
+import { BoxComponent } from './components/box/box.component';
+import { CircleComponent } from './components/circle/circle.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BoxComponent,
+    CircleComponent
   ],
   imports: [
     BrowserModule,
